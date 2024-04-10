@@ -17,302 +17,249 @@
       "id": 2
     }
   ],
-  "products": [
+  
+  "special-products": [
     {
       "id": 1,
       "productName": "Cây chân chim",
-      "category": "Cây chậu treo",
-      "color": "Xanh cây",
-      "imgURL": "./src/images/products/chan_chim.png",
-      "originalPrice": 300000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
+      "rate": 4.5,
+      "newProduct": true,
+      "percentSale": 0,
+      "originalPrice": 250.000,
+      "salePrice": 250.000,
+      "img": "./src/images/products/chan_chim_grp.png"
     },
     {
       "id": 2,
-      "productName": "Cây danh dự",
-      "category": "Cây chậu treo",
-      "color": "Xanh cây",
-      "imgURL": "./src/images/products/danh_du_1.png",
-      "originalPrice": 300000,
-      "percentSale": 0.25,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
+      "productName": "Cây cọ ta",
+      "rate": 4.5,
+      "newProduct": false,
+      "percentSale": 0,
+      "originalPrice": 250.000,
+      "salePrice": 150.000,
+      "img": "./src/images/products/co_ta.png"
     },
     {
       "id": 3,
-      "productName": "Cây đa búp đỏ",
-      "category": "Cây chậu treo",
-      "color": "Xanh cây",
-      "imgURL": "./src/images/products/da_bup_do.png",
-      "originalPrice": 300000,
-      "percentSale": 0.5,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
+      "productName": "Cây dứa nhỏ",
+      "rate": 4.5,
+      "newProduct": false,
+      "percentSale": 0,
+      "originalPrice": 250.000,
+      "salePrice": 375.000,
+      "img": "./src/images/products/dua_nho_1.png"
     },
     {
       "id": 4,
-      "productName": "Cây cọ ta",
-      "category": "Cây cỏ hoa",
-      "color": "Xanh cây",
-      "imgURL": "./src/images/products/co_ta.png",
-      "originalPrice": 300000,
-      "percentSale": 0.2,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
+      "productName": "Cây Dạ Lam",
+      "rate": 4.5,
+      "newProduct": false,
+      "percentSale": 50,
+      "originalPrice": 250.000,
+      "salePrice": 500.000,
+      "img": "./src/images/products/da_lam_1.png"
     },
     {
       "id": 5,
-      "productName": "Cây dạ lam",
-      "category": "Cây cỏ hoa",
-      "color": "Xanh cây",
-      "imgURL": "./src/images/products/da_lam_2.png",
-      "originalPrice": 750000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "newProduct": true,
+      "percentSale": 0,
+      "originalPrice": 250.000,
+      "salePrice": 850.000,
+      "img": "./src/images/products/danh_du_1.png"
     },
     {
       "id": 6,
-      "productName": "Cây dạ lam",
-      "category": "Cây dây leo",
-      "color": "Đỏ cam",
-      "imgURL": "./src/images/products/product/da_lam_1.png",
-      "originalPrice": 750000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
+      "productName": "Cây đa búp đỏ",
+      "rate": 4.5,
+      "newProduct": false,
+      "percentSale": 50,
+      "originalPrice": 250.000,
+      "salePrice": 1000.000,
+      "img": "./src/images/products/da_bup_do_grp.png"
+    }
+  ],
+
+
+  "hot-products": [
+    {
+      "id": 1,
+      "productName":"Cây chân chim",
+      "img": "./src/images/products/chan_chim.png",
+      "rate": 4.5,
+      "price": 250
+    },
+    {
+      "id": 2,
+      "productName":"Cây Dạ Lam",
+      "img": "./src/images/products/da_lam_3.png",
+      "rate": 4.5,
+      "price": 150
+    },
+    {
+      "id": 3,
+      "productName":"Cây Danh Dự",
+      "img": "./src/images/products/danh_du_1.png",
+      "rate": 4.5,
+      "price": 450
+    },
+    {
+      "id": 4,
+      "productName":"Cây đa búp đỏ",
+      "img": "./src/images/products/da_lam_2.png",
+      "rate": 4.5,
+      "price": 200
+    },
+    {
+      "id": 5,
+      "productName":"Cây cọ ta",
+      "img": "./src/images/products/da_lam_1.png",
+      "rate": 4.5,
+      "price": 300
+    },
+    {
+      "id": 6,
+      "productName":"Cây dứa nhỏ",
+      "img": "./src/images/products/dua_nho_2.png",
+      "rate": 4.5,
+      "price": 275
+    }
+  ],
+
+  "sale-products": [
+    {
+      "id": 1,
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "percentSale": 25,
+      "originalPrice": 250.000,
+      "salePrice": 475.000,
+      "img": "./src/images/products/danh_du_1.png"
+    },
+    {
+      "id": 2,
+      "productName": "Cây dứa nhỏ",
+      "rate": 4.5,
+      "percentSale": 10,
+      "originalPrice": 250.000,
+      "salePrice": 668.000,
+      "img": "./src/images/products/da_lam_2.png"
+    },
+    {
+      "id": 3,
+      "productName": "Cây cọ ta",
+      "rate": 4.5,
+      "percentSale": 0,
+      "originalPrice": 250.000,
+      "salePrice": 770.000,
+      "img": "./src/images/products/co_ta.png"
+    },
+    {
+      "id": 4,
+      "productName": "Cây Dạ Lam",
+      "rate": 4.5,
+      "percentSale": 0,
+      "originalPrice": 250.000,
+      "salePrice": 555.000,
+      "img": "./src/images/products/chan_chim.png"
+    },
+    {
+      "id": 5,
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "percentSale": 0,
+      "originalPrice": 250.000,
+      "salePrice": 780.000,
+      "img": "./src/images/products/danh_du_2.png"
+    },
+    {
+      "id": 6,
+      "productName": "Cây dứa nhỏ",
+      "rate": 4.5,
+      "percentSale": 0,
+      "originalPrice": 250.000,
+      "salePrice": 680.000,
+      "img": "./src/images/products/dua_nho_1.png"
+    }
+  ],
+
+
+  "new-products": [
+    {
+      "id": 1,
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "newProduct": true,
+      "originalPrice": 250.000,
+      "salePrice": 250.000,
+      "img": "./src/images/products/danh_du_1.png"
+    },
+    {
+      "id": 2,
+      "productName": "Cây xương rồng",
+      "rate": 4.5,
+      "newProduct": false,
+      "originalPrice": 250.000,
+      "salePrice": 250.000,
+      "img": "./src/images/products/xuong_rong.png"
+    },
+    {
+      "id": 3,
+      "productName": "Cây Dạ Lam",
+      "rate": 4.5,
+      "newProduct": false,
+      "originalPrice": 250.000,
+      "salePrice": 250.000,
+      "img": "./src/images/products/da_lam_2.png"
+    },
+    {
+      "id": 4,
+      "productName": "Cây dứa nhỏ",
+      "rate": 4.5,
+      "newProduct": false,
+      "originalPrice": 250.000,
+      "salePrice": 250.000,
+      "img": "./src/images/products/co_ta.png"
+    },
+    {
+      "id": 5,
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "newProduct": false,
+      "originalPrice": 250.000,
+      "salePrice": 680.000,
+      "img": "./src/images/products/dua_nho_1.png"
+    },
+    {
+      "id": 6,
+      "productName": "Cây Dạ Lam",
+      "rate": 4.5,
+      "newProduct": false,
+      "originalPrice": 250.000,
+      "salePrice": 880.000,
+      "img": "./src/images/products/da_lam_1.png"
     },
     {
       "id": 7,
-      "productName": "Cây dạ lam",
-      "category": "Cây để bàn",
-      "color": "Đỏ cam",
-      "imgURL": "./src/images/products/da_lam_3.png",
-      "originalPrice": 750000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 8,
       "productName": "Cây chân chim",
-      "category": "Cây để bàn",
-      "color": "Đỏ cam",
-      "imgURL": "./src/images/products/chan_chim.png",
-      "originalPrice": 750000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
+      "rate": 4.5,
+      "newProduct": false,
+      "originalPrice": 250.000,
+      "salePrice": 750.000,
+      "img": "./src/images/products/chan_chim.png"
     },
     {
-      "id": 9,
-      "productName": "Cây danh dự",
-      "category": "Cây để bàn",
-      "color": "Đỏ cam",
-      "imgURL": "./src/images/products/danh_du_1.png",
-      "originalPrice": 750000,
-      "percentSale": 0.25,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 10,
+      "id": 6,
       "productName": "Cây đa búp đỏ",
-      "category": "Cây để bàn",
-      "color": "Đỏ cam",
-      "imgURL": "./src/images/products/da_bup_do.png",
-      "originalPrice": 750000,
-      "percentSale": 0.5,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 11,
-      "productName": "Cây cọ ta",
-      "category": "Cây để bàn",
-      "color": "Tím",
-      "imgURL": "./src/images/products/co_ta.png",
-      "originalPrice": 980000,
-      "percentSale": 0.2,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 12,
-      "productName": "Cây dạ lam",
-      "category": "Cây may mắn",
-      "color": "Xanh trời",
-      "imgURL": "./src/images/products/da_lam_2.png",
-      "originalPrice": 980000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 13,
-      "productName": "Cây dạ lam",
-      "category": "Cây trang trí",
-      "color": "Xanh trời",
-      "imgURL": "./src/images/products/da_lam_1.png",
-      "originalPrice": 980000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 14,
-      "productName": "Cây dạ lam",
-      "category": "Cây nội thất",
-      "color": "Vàng",
-      "imgURL": "./src/images/products/da_lam_3.png",
-      "originalPrice": 980000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 15,
-      "productName": "Cây chân chim",
-      "category": "Cây nội thất",
-      "color": "Vàng",
-      "imgURL": "./src/images/products/chan_chim.png",
-      "originalPrice": 1350000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 16,
-      "productName": "Cây danh dự",
-      "category": "Cây nội thất",
-      "color": "Vàng",
-      "imgURL": "./src/images/products/danh_du_1.png",
-      "originalPrice": 1350000,
-      "percentSale": 0.25,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 17,
-      "productName": "Cây đa búp đỏ",
-      "category": "Cây nội thất",
-      "color": "Vàng",
-      "imgURL": "./src/images/products/da_bup_do.png",
-      "originalPrice": 1350000,
-      "percentSale": 0.5,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 18,
-      "productName": "Cây cọ ta",
-      "category": "Cây nội thất",
-      "color": "Vàng",
-      "imgURL": "./src/images/products/co_ta.png",
-      "originalPrice": 1350000,
-      "percentSale": 0.2,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 19,
-      "productName": "Cây dạ lam",
-      "category": "Cây nội thất",
-      "color": "Vàng",
-      "imgURL": "./src/images/products/da_lam_2.png",
-      "originalPrice": 1350000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 20,
-      "productName": "Cây dạ lam",
-      "category": "Cây nội thất",
-      "color": "Hồng",
-      "imgURL": "./src/images/products/da_lam_1.png",
-      "originalPrice": 1350000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
-    },
-    {
-      "id": 21,
-      "productName": "Cây dạ lam",
-      "color": "Hồng",
-      "category": "Cây nội thất",
-      "imgURL": "./src/images/products/da_lam_3.png",
-      "originalPrice": 1350000,
-      "percentSale": 0.15,
-      "rate": {
-        "count": 100,
-        "average": 4.5
-      },
-      "createAt": 1696490186164
+      "rate": 4.5,
+      "newProduct": false,
+      "originalPrice": 250.000,
+      "salePrice": 150.000,
+        "img": "./src/images/products/da_bup_do.png"
     }
   ],
+
   "carts": [
     {
       "name": "Pemond",
@@ -370,4 +317,5 @@
       "id": 1
     }
   ]
+
 }
