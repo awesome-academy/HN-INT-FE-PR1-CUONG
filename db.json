@@ -17,7 +17,6 @@
       "id": 2
     }
   ],
-  
   "special-products": [
     {
       "id": 1,
@@ -25,8 +24,8 @@
       "rate": 4.5,
       "newProduct": true,
       "percentSale": 0,
-      "originalPrice": 250.000,
-      "salePrice": 250.000,
+      "originalPrice": 250,
+      "salePrice": 250,
       "img": "./src/images/products/chan_chim_grp.png"
     },
     {
@@ -35,8 +34,8 @@
       "rate": 4.5,
       "newProduct": false,
       "percentSale": 0,
-      "originalPrice": 250.000,
-      "salePrice": 150.000,
+      "originalPrice": 250,
+      "salePrice": 150,
       "img": "./src/images/products/co_ta.png"
     },
     {
@@ -45,8 +44,8 @@
       "rate": 4.5,
       "newProduct": false,
       "percentSale": 0,
-      "originalPrice": 250.000,
-      "salePrice": 375.000,
+      "originalPrice": 250,
+      "salePrice": 375,
       "img": "./src/images/products/dua_nho_1.png"
     },
     {
@@ -55,8 +54,8 @@
       "rate": 4.5,
       "newProduct": false,
       "percentSale": 50,
-      "originalPrice": 250.000,
-      "salePrice": 500.000,
+      "originalPrice": 250,
+      "salePrice": 500,
       "img": "./src/images/products/da_lam_1.png"
     },
     {
@@ -65,8 +64,8 @@
       "rate": 4.5,
       "newProduct": true,
       "percentSale": 0,
-      "originalPrice": 250.000,
-      "salePrice": 850.000,
+      "originalPrice": 250,
+      "salePrice": 850,
       "img": "./src/images/products/danh_du_1.png"
     },
     {
@@ -75,66 +74,63 @@
       "rate": 4.5,
       "newProduct": false,
       "percentSale": 50,
-      "originalPrice": 250.000,
-      "salePrice": 1000.000,
+      "originalPrice": 250,
+      "salePrice": 1000,
       "img": "./src/images/products/da_bup_do_grp.png"
     }
   ],
-
-
   "hot-products": [
     {
       "id": 1,
-      "productName":"Cây chân chim",
+      "productName": "Cây chân chim",
       "img": "./src/images/products/chan_chim.png",
       "rate": 4.5,
       "price": 250
     },
     {
       "id": 2,
-      "productName":"Cây Dạ Lam",
+      "productName": "Cây Dạ Lam",
       "img": "./src/images/products/da_lam_3.png",
       "rate": 4.5,
       "price": 150
     },
     {
       "id": 3,
-      "productName":"Cây Danh Dự",
+      "productName": "Cây Danh Dự",
       "img": "./src/images/products/danh_du_1.png",
       "rate": 4.5,
       "price": 450
     },
     {
       "id": 4,
-      "productName":"Cây đa búp đỏ",
+      "productName": "Cây đa búp đỏ",
       "img": "./src/images/products/da_lam_2.png",
       "rate": 4.5,
       "price": 200
     },
     {
       "id": 5,
-      "productName":"Cây cọ ta",
+      "productName": "Cây cọ ta",
       "img": "./src/images/products/da_lam_1.png",
       "rate": 4.5,
       "price": 300
     },
     {
       "id": 6,
-      "productName":"Cây dứa nhỏ",
+      "productName": "Cây dứa nhỏ",
       "img": "./src/images/products/dua_nho_2.png",
       "rate": 4.5,
       "price": 275
     }
   ],
-
   "sale-products": [
     {
       "id": 1,
       "productName": "Cây Danh Dự",
       "rate": 4.5,
       "percentSale": 25,
-      "originalPrice": 250.000,
-      "salePrice": 475.000,
+      "originalPrice": 250,
+      "salePrice": 475,
       "img": "./src/images/products/danh_du_1.png"
     },
     {
@@ -142,8 +138,8 @@
       "productName": "Cây dứa nhỏ",
       "rate": 4.5,
       "percentSale": 10,
-      "originalPrice": 250.000,
-      "salePrice": 668.000,
+      "originalPrice": 250,
+      "salePrice": 668,
       "img": "./src/images/products/da_lam_2.png"
     },
     {
@@ -151,8 +147,8 @@
       "productName": "Cây cọ ta",
       "rate": 4.5,
       "percentSale": 0,
-      "originalPrice": 250.000,
-      "salePrice": 770.000,
+      "originalPrice": 250,
+      "salePrice": 770,
       "img": "./src/images/products/co_ta.png"
     },
     {
@@ -160,8 +156,8 @@
       "productName": "Cây Dạ Lam",
       "rate": 4.5,
       "percentSale": 0,
-      "originalPrice": 250.000,
-      "salePrice": 555.000,
+      "originalPrice": 250,
+      "salePrice": 555,
       "img": "./src/images/products/chan_chim.png"
     },
     {
@@ -169,8 +165,8 @@
       "productName": "Cây Danh Dự",
       "rate": 4.5,
       "percentSale": 0,
-      "originalPrice": 250.000,
-      "salePrice": 780.000,
+      "originalPrice": 250,
+      "salePrice": 780,
       "img": "./src/images/products/danh_du_2.png"
     },
     {
@@ -178,21 +174,19 @@
       "productName": "Cây dứa nhỏ",
       "rate": 4.5,
       "percentSale": 0,
-      "originalPrice": 250.000,
-      "salePrice": 680.000,
+      "originalPrice": 250,
+      "salePrice": 680,
       "img": "./src/images/products/dua_nho_1.png"
     }
   ],
-
-
   "new-products": [
     {
       "id": 1,
       "productName": "Cây Danh Dự",
       "rate": 4.5,
       "newProduct": true,
-      "originalPrice": 250.000,
-      "salePrice": 250.000,
+      "originalPrice": 250,
+      "salePrice": 250,
       "img": "./src/images/products/danh_du_1.png"
     },
     {
@@ -200,8 +194,8 @@
       "productName": "Cây xương rồng",
       "rate": 4.5,
       "newProduct": false,
-      "originalPrice": 250.000,
-      "salePrice": 250.000,
+      "originalPrice": 250,
+      "salePrice": 250,
       "img": "./src/images/products/xuong_rong.png"
     },
     {
@@ -209,8 +203,8 @@
       "productName": "Cây Dạ Lam",
       "rate": 4.5,
       "newProduct": false,
-      "originalPrice": 250.000,
-      "salePrice": 250.000,
+      "originalPrice": 250,
+      "salePrice": 250,
       "img": "./src/images/products/da_lam_2.png"
     },
     {
@@ -218,8 +212,8 @@
       "productName": "Cây dứa nhỏ",
       "rate": 4.5,
       "newProduct": false,
-      "originalPrice": 250.000,
-      "salePrice": 250.000,
+      "originalPrice": 250,
+      "salePrice": 250,
       "img": "./src/images/products/co_ta.png"
     },
     {
@@ -227,8 +221,8 @@
       "productName": "Cây Danh Dự",
       "rate": 4.5,
       "newProduct": false,
-      "originalPrice": 250.000,
-      "salePrice": 680.000,
+      "originalPrice": 250,
+      "salePrice": 680,
       "img": "./src/images/products/dua_nho_1.png"
     },
     {
@@ -236,8 +230,8 @@
       "productName": "Cây Dạ Lam",
       "rate": 4.5,
       "newProduct": false,
-      "originalPrice": 250.000,
-      "salePrice": 880.000,
+      "originalPrice": 250,
+      "salePrice": 880,
       "img": "./src/images/products/da_lam_1.png"
     },
     {
@@ -245,77 +239,187 @@
       "productName": "Cây chân chim",
       "rate": 4.5,
       "newProduct": false,
-      "originalPrice": 250.000,
-      "salePrice": 750.000,
+      "originalPrice": 250,
+      "salePrice": 750,
       "img": "./src/images/products/chan_chim.png"
     },
     {
-      "id": 6,
+      "id": 8,
       "productName": "Cây đa búp đỏ",
       "rate": 4.5,
       "newProduct": false,
-      "originalPrice": 250.000,
-      "salePrice": 150.000,
-        "img": "./src/images/products/da_bup_do.png"
+      "originalPrice": 250,
+      "salePrice": 150,
+      "img": "./src/images/products/da_bup_do.png"
     }
   ],
-
-  "carts": [
+  "product-list": [
     {
-      "name": "Pemond",
-      "address": "Nowhere to hide",
-      "phone": "0123456789",
-      "paymentMethod": "COD",
-      "carts": [
-        {
-          "id": 2,
-          "productName": "Cây danh dự",
-          "category": "Cây chậu treo",
-          "color": "Xanh cây",
-          "imgURL": "./src/images/products/danh_du_1.png",
-          "originalPrice": 300000,
-          "percentSale": 0.25,
-          "rate": {
-            "count": 100,
-            "average": 4.5
-          },
-          "createAt": 1696490186164,
-          "quantity": 2
-        },
-        {
-          "id": 3,
-          "productName": "Cây đa búp đỏ",
-          "category": "Cây chậu treo",
-          "color": "Xanh cây",
-          "imgURL": "./src/images/products/da_bup_do.png",
-          "originalPrice": 300000,
-          "percentSale": 0.5,
-          "rate": {
-            "count": 100,
-            "average": 4.5
-          },
-          "createAt": 1696490186164,
-          "quantity": 1
-        },
-        {
-          "id": 8,
-          "productName": "Cây chân chim",
-          "category": "Cây để bàn",
-          "color": "Đỏ cam",
-          "imgURL": "./src/images/products/chan_chim.png",
-          "originalPrice": 750000,
-          "percentSale": 0.15,
-          "rate": {
-            "count": 100,
-            "average": 4.5
-          },
-          "createAt": 1696490186164,
-          "quantity": 1
-        }
-      ],
-      "userId": 1,
-      "id": 1
+      "id": 1,
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "type": "Cây chậu treo",
+      "color": "green",
+      "originalPrice": 250,
+      "salePrice": 250,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/danh_du_1.png"
+    },
+    {
+      "id": 2,
+      "productName": "Cây xương rồng",
+      "rate": 4.5,
+      "type": "Cây chậu treo",
+      "color": "red",
+      "originalPrice": 250,
+      "salePrice": 250,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/xuong_rong.png"
+    },
+    {
+      "id": 3,
+      "productName": "Cây Dạ Lam",
+      "rate": 4.5,
+      "type": "Cây chậu treo",
+      "color": "purple",
+      "originalPrice": 250,
+      "salePrice": 450,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/da_lam_2.png"
+    },
+    {
+      "id": 4,
+      "productName": "Cây dứa nhỏ",
+      "rate": 4.5,
+      "type": "Cây có hoa",
+      "color": "purple",
+      "originalPrice": 250,
+      "salePrice": 250,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/co_ta.png"
+    },
+    {
+      "id": 5,
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "type": "Cây có hoa",
+      "color": "blue",
+      "originalPrice": 250,
+      "salePrice": 680,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/dua_nho_1.png"
+    },
+    {
+      "id": 6,
+      "productName": "Cây Dạ Lam",
+      "rate": 4.5,
+      "type": "Cây có hoa",
+      "color": "yellow",
+      "originalPrice": 250,
+      "salePrice": 880,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/da_lam_1.png"
+    },
+    {
+      "id": 7,
+      "productName": "Cây chân chim",
+      "rate": 4.5,
+      "type": "Cây chậu treo",
+      "color": "pink",
+      "originalPrice": 250,
+      "salePrice": 750,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/chan_chim.png"
+    },
+    {
+      "id": 8,
+      "productName": "Cây đa búp đỏ",
+      "rate": 4.5,
+      "type": "Cây có hoa",
+      "color": "pink",
+      "originalPrice": 250,
+      "salePrice": 1150,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/da_bup_do.png"
+    },
+    {
+      "id": 9,
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "type": "Cây có hoa",
+      "color": "green",
+      "originalPrice": 250,
+      "salePrice": 250,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/danh_du_1.png"
+    },
+    {
+      "id": 10,
+      "productName": "Cây xương rồng",
+      "rate": 4.5,
+      "type": "Cây chậu treo",
+      "color": "pink",
+      "originalPrice": 250,
+      "salePrice": 250,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/xuong_rong.png"
+    },
+    {
+      "id": 11,
+      "productName": "Cây Dạ Lam",
+      "rate": 4.5,
+      "type": "Cây chậu treo",
+      "color": "purple",
+      "originalPrice": 250,
+      "salePrice": 350,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/da_lam_2.png"
+    },
+    {
+      "id": 12,
+      "productName": "Cây dứa nhỏ",
+      "rate": 4.5,
+      "type": "Cây có hoa",
+      "color": "purple",
+      "originalPrice": 250,
+      "salePrice": 200,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/co_ta.png"
+    },
+    {
+      "id": 13,
+      "productName": "Cây Danh Dự",
+      "rate": 4.5,
+      "type": "Cây có hoa",
+      "color": "blue",
+      "originalPrice": 250,
+      "salePrice": 980,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/dua_nho_1.png"
+    },
+    {
+      "id": 14,
+      "productName": "Cây Dạ Lam",
+      "rate": 4.5,
+      "type": "Cây chậu treo",
+      "color": "yellow",
+      "originalPrice": 250,
+      "salePrice": 880,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/da_lam_1.png"
+    },
+    {
+      "id": 15,
+      "productName": "Cây chân chim",
+      "rate": 4.5,
+      "type": "Cây chậu treo",
+      "color": "yellow",
+      "originalPrice": 250,
+      "salePrice": 1050,
+      "description": "Cây Ngọc ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng `người ấy`. Ngọc ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng",
+      "img": "./src/images/products/chan_chim.png"
     }
+  ],
+  "cart": [
   ]
-
 }

@@ -1,0 +1,169 @@
+.main-header{
+    font-size: 14px;
+}
+
+.main-header span:last-child{
+    color: rgb(85, 194, 132);
+}
+
+main{
+    background-color: white;
+}
+
+.main__container-product{
+    margin-top: 3rem;
+}
+
+.container{
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 1200px !important;
+}
+
+.product-header-wrap{
+    width: 100%;
+    border-bottom: 1px solid rgb(247,247,247);
+}
+
+.product-header{
+    width: fit-content;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(123,206,157);
+    color: rgb(74,188,120);
+    margin: 0 !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.category-list{
+    margin-top: .6rem !important;
+}
+
+.category-list-item{
+    padding: .6rem 0 !important;
+    font-size: 14px;
+    color: rgb(178,178,178) !important; 
+    border-bottom: 1px solid rgb(234,234,234) !important;
+}
+
+.category-list-item span{
+    margin-left: 5px;
+}
+
+.category-list-item-active span{
+    color: rgb(74,188,120) !important;
+    font-weight: 500;
+}
+
+.hot-news, .blog-tag{
+    margin-top: 2rem;
+}
+
+.hot-news-list{
+    width: 100%;
+    height: fit-content;
+}
+
+.hot-news-list-item{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hot-news-list-item img{
+    width: 30%;
+    padding-right: 2px;
+}
+
+.hot-news-list-item p{
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(59, 56, 56);
+}
+
+.blog-tag-list{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-tag-item{
+    margin-top: 1rem;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid rgb(207,207,207);
+    margin-right: 8px;
+    color: rgb(177,177,177);
+}
+
+.blog-tag-item:first-child{
+    background-color: rgb(63,184,113);
+    border-color: rgb(63,184,113);
+    color: white;
+}
+
+h6{
+    font-size: 20px !important;
+}
+
+.news-date{
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.news-date > span {
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.news-date span i {
+    color: rgb(96,184,139);
+}
+
+.news-date span span{
+    opacity: 0.4;
+}
+
+.news-content img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+
+.news-content p{
+    margin: 1.5rem 0;
+    color: black ;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.content-wrap:not(:first-child){
+    margin-top: 3rem;
+}
+
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4rem;
+}
+
+.pagination span{
+    padding: 10px 20px;
+    border: 1px solid rgb(243,243,243);
+    background-color: white;
+    margin-left: 5px;
+    color: rgb(174,174,174);
+}
+
+.pagination span:hover{
+    cursor: pointer;
+}
+
+.pagination span:nth-child(2){
+    background-color: rgb(51, 201, 113);
+    color: white;
+}

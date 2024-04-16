@@ -1,0 +1,55 @@
+.main-header{
+    font-size: 14px;
+}
+
+.main-header span:last-child{
+    color: rgb(85, 194, 132);
+}
+
+main{
+    background-color: white;
+}
+
+.main__container-product{
+    margin-top: 2rem;
+}
+
+.container{
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 1200px !important;
+}
+
+.product-header{
+    width: fit-content;
+    padding-bottom: 12px;
+    color: rgb(74,188,120);
+    margin: 0 !important;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+}
+
+.contact-map{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid rgb(235, 235, 235);
+    padding: 5px 10px !important;
+    margin-top: 5px !important; 
+}
+.person-information .footer-bottom-contact{
+    margin-left: 0 !important;
+}
+
+.person-information .footer-bottom-contact span{
+    opacity: 0.7;
+}
+
+.dkt{
+    margin: 2rem 0 !important;
+    opacity: 0.7;
+}
+

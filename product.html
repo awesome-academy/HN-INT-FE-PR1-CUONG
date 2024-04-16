@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="stylesheet" href="./src/css/base.style.css" />
-    <link rel="stylesheet" href="./src/css/home.style.css" />
+    <link rel="stylesheet" href="./src/css/product.style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -155,13 +155,15 @@
                 <a href="#" class="nav-link">Giới thiệu</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="list-product.html"> Sản phẩm </a>
+                <a class="nav-link dropdown-toggle" href="list-product.html">
+                  Sản phẩm
+                </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#"> Sản phẩm mới </a>
               </li>
               <li class="nav-item">
-                <a href="./list-news.html" class="nav-link">Tin tức</a>
+                <a href="list-news.html" class="nav-link">Tin tức</a>
               </li>
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">Liên hệ</a>
@@ -177,218 +179,323 @@
     </header>
 
     <main>
-      <section class="main-slide">
-        <img src="./src/images/other/slide-1920x590.png" alt="" />
-        <div class="main-slide-control">
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item slide-control"></li>
-            <li class="list-group-item slide-control slide-active"></li>
-            <li class="list-group-item slide-control"></li>
-          </ul>
-        </div>
-      </section>
-
       <section class="main__container">
         <div class="main__container-wrap">
-          <!-- Special Product -->
-
-          <section class="special-product">
-            <div class="product-header-wrap">
-              <h5 class="product-header">Sản phẩm nổi bật</h5>
-            </div>
-            <div class="main__special-product">
-              <div class="container">
-                <div class="row product-row">
-                  <div class="col-md row special-product-right">
-                    <div
-                      class="col-md-12 col-sm-12 product-area-wrap product-area-big">
-                    </div>
-
-                    <div
-                      class="col-md col-sm col product-area-wrap product-area-small"
-                    >
-                    </div>
-
-                    <div class="col-md-1 col-sm-1 col-1"></div>
-
-                    <div
-                      class="col-md col-sm col product-area-wrap product-area-small"
-                    >
-                    </div>
-                  </div>
-
-                  <div class="col-md-1"></div>
-
-                  <div class="col-md row special-product-right">
-                    <div
-                      class="col-md col-sm col product-area-wrap product-area-small"
-                    >
-                    </div>
-
-                    <div class="col-md-1 col-sm-1 col-1"></div>
-
-                    <div
-                      class="col-md col-sm col product-area-wrap product-area-small"
-                    >
-                    </div>
-                    <div
-                      class="col-md-12 col-sm-12 product-area-wrap product-area-big">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!-- End Special -->
-
-          <!-- Top buy and discount Product -->
-
-          <section class="main-product-wrap">
-            <div class="row product-row">
-              <!-- Top buy  -->
-              <div class="col-md-3 product-left">
-                <section class="hot-product">
-                  <div class="product-header-wrap product-header-control">
-                    <h5 class="product-header">Sản phẩm mua nhiều</h5>
-                    <div class="product-header-control-hot">
-                      <span>
-                        <i class="fa fa-angle-left"></i>
-                      </span>
-                      <span>
-                        <i class="fa fa-angle-right"></i>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="main__hot-product">
-                    <div class="container">
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-
-              <!-- Sale  -->
-              <div class="col-md-9 product-right">
-                <section class="sale-product">
-                  <div class="product-header-wrap product-header-control">
-                    <h5 class="product-header">Sản phẩm khuyến mãi</h5>
-                    <div>
-                      <span>
-                        <i class="fa fa-angle-left"></i>
-                      </span>
-                      <span>
-                        <i class="fa fa-angle-right"></i>
-                      </span>
-                    </div>
-                  </div>
-                    <div class="main__sale-product">
-                      <div class="container">
-                        <div class="row product-row">
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                          <div class="col-md-1"></div>
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                          <div class="col-md-1"></div>
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                        </div>
-                        <div class="row product-row">
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                          <div class="col-md-1"></div>
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                          <div class="col-md-1"></div>
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                        </div>
+          <div class="main-header">
+            <span>Home/</span>
+            <span>Cây dạ lam</span>
+          </div>
+          <div class="container">
+            <div class="row product-content-wrap">
+              <section class="col-md-5 product-img">
+                <img src="./src/images/products/danh_du_1.png" alt="" />
+                <div class="group-image">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md col-sm">
+                        <img src="./src/images/products/chan_chim.png" alt="" />
+                      </div>
+                      <div class="col-md col-sm">
+                        <img src="./src/images/products/da_bup_do.png" alt="" />
+                      </div>
+                      <div class="col-md col-sm">
+                        <img src="./src/images/products/da_lam_2.png" alt="" />
+                      </div>
+                      <div class="col-md col-sm">
+                        <img src="./src/images/products/dua_nho_2.png" alt="" />
+                      </div>
+                      <div class="col-md col-sm">
+                        <img
+                          src="./src/images/products/xuong_rong.png"
+                          alt=""
+                        />
                       </div>
                     </div>
-                </section>
-              </div>
-            </div>
-          </section>
-
-          <!-- End hot and sale  -->
-
-          <section class="main__banner">
-            <img src="./src/images/other/banner-11140x217.png" alt="">
-          </section>
-
-          <!-- Start New  -->
-
-          <section class="new-product">
-            <div class="product-header-wrap product-header-control">
-              <h5 class="product-header">Sản phẩm mới</h5>
-              <div class="product-header-control-hot">
-                <span>
-                  <i class="fa fa-angle-left"></i>
-                </span>
-                <span>
-                  <i class="fa fa-angle-right"></i>
-                </span>
-              </div>
-            </div>
-            <div class="main__new-product">
-              <div class="container">
-                <div class="row product-row">
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
+                  </div>
                 </div>
-                <div class="row product-row">
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
+              </section>
+              <section class="col-md-7 product-detail">
+                <div class="product-detail-item">
+                  <h6>Cây Dạ Lam</h6>
+                  <p class="product-detail-review">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </p>
+                  <p class="product-price">
+                    <span class="product-sale-price">4.099.000 đ</span>
+                    <span class="product-original-price">4.099.000 đ</span>
+                  </p>
                 </div>
+                <div class="product-detail-item">
+                  <p class="product-description">
+                    Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao xây
+                    trung bình từ 0.8-1.2m. Lá hình trứng, mép lá nguyên, gân lá
+                    nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở
+                    mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá nhạt
+                    màu hơn . Lá cây dạ lam mọc cách, cuống lá dài khi rụng để
+                    lại các khía màu nâu nhạt.
+                  </p>
+                </div>
+                <div class="product-detail-item">
+                  <span class="quantity-title">Số lượng</span>
+                  <span class="quantity-action">
+                    <button
+                      class="quantity quantity-minus"
+                      onclick="quantityMinus()"
+                    >
+                      -
+                    </button>
+                    <div class="quantity-number">1</div>
+                    <button
+                      class="quantity quantity-add"
+                      onclick="quantityAdd()"
+                    >
+                      +
+                    </button>
+                  </span>
+                </div>
+                <div class="product-detail-item">
+                  <div class="product-action">
+                    <div class="product-action-buy" onclick="handleAddtoCart()">Mua ngay</div>
+                    <div class="product-action-find">
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <div class="product-action-find">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <span class="social-like social-facebook">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    Like
+                  </span>
+                  <span class="comment-rectangle">
+                    <div class="rectangle">0</div>
+                    <div class="triangle"></div>
+                  </span>
+                  <span class="social-like social-twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    Tweet
+                  </span>
+                  <span class="social-like social-google">
+                    <i class="fa-brands fa-google"></i>
+                    +1
+                  </span>
+                  <span class="comment-rectangle">
+                    <div class="rectangle">0</div>
+                    <div class="triangle"></div>
+                  </span>
+                  <span class="social-like social-share">
+                    <i class="fa-regular fa-square-plus"></i>
+                    share
+                  </span>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <section class="product-information-wrap">
+            <div class="product-information-nav">
+              <div
+                class="product-information-nav-item product-information-nav-item-active"
+              >
+                Thông tin sản phẩm
+              </div>
+              <div class="product-information-nav-item">
+                Khách hàng đánh giá
+              </div>
+              <div class="product-information-nav-item">Thẻ Tag</div>
+            </div>
+            <div class="product-information-content">
+              <div
+                class="product-information-content-item product-information-content-item-active"
+              >
+                <p>Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn</p>
+                <p>Tên khoa học: Calatheza zebrina</p>
+                <p>Họ thực vật: Marantaceae (Củ dong).</p>
+                <p>Chiều cao: 0,8-1,2m</p>
+                <p>
+                  Cây dạ lam có nguồn gốc từ Brazil, được du nhập và phân bố
+                  rộng khắp ở Việt Nam
+                </p>
+                <p>
+                  Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao xây
+                  trung bình từ 0.8-1.2m. Lá hình trứng, mép lá nguyên, gân lá
+                  nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt
+                  trên, quanh gân lá có màu trắng sữa; mặt dưới lá nhạt màu hơn
+                  . Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các
+                  khía màu nâu nhạt.
+                </p>
+                <p>
+                  Cây dạ lam thuộc loại cây chịu bóng bán phần hoặc hoàn toàn,
+                  nhu cầu nước tương đối cao. Cây được nhân giống từ tách bụi,
+                  cây mọc khỏe , tốc độ sinh trưởng nhanh với sức sống mạnh.
+                </p>
+                <p>
+                  Đây là loại cây có dáng đẹp, màu lá mướt mát, tươi khỏe, cây
+                  rất phù hợp trồng chậu trang trí nội thất-văn phòng
+                </p>
+                <p>
+                  Ngoài ra, cây còn có đặc điểm lọc khí, làm xanh mát môi
+                  trường, giúp điều hòa không khí, đặc biệt tốt cho những môi
+                  trường thường xuyên sử dụng các loại máy móc tản nhiệt . Có
+                  thể bày cây ở hành lang hay ở giữa sảnh, đặt ở cạnh bàn làm
+                  việc hoặc trang trí các góc phòng có diện tích trung bình.
+                </p>
+              </div>
+              <div class="product-information-content-item">
+                This is Costumer's review
+              </div>
+              <div class="product-information-content-item">
+                This is Product's tag
               </div>
             </div>
           </section>
 
-          <section class="news">
+          <section class="same-product">
             <div class="product-header-wrap">
-              <h5 class="product-header">Tin tức</h5>
+              <h5 class="product-header">Sản phẩm cùng loại</h5>
             </div>
-            <div class="main__news-wrap"> 
-              <div class="container">
-               <div class="row product-row">
+            <section class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="product-area">
+                    <div class="product-action-same">
+                      <div class="product-action-same-buy">Mua ngay</div>
+                      <div class="product-action-same-find">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
 
-                <div class="col-md-4 news-card">
-                  <img src="./src/images/other/news-img.jfif" alt="">
-                  <i class="news-date">Thứ 7, ngày 31, tháng 12, năm 2015</i>
-                  <p class="news-title">15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê</p>
-                  <p class="news-content">Cùng Sài Gòn Hoa tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé! Kết hợp hàng rào</p>
-                  <i class="news-read-more">Đọc tiếp</i>
+                    <img
+                      class="product-img"
+                      src="./src/images/products/co_ta.png"
+                      alt=""
+                    />
+                    <div class="product-content">
+                      <p class="product-name">Cây cọ Nhật</p>
+
+                      <p class="product-review">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </p>
+
+                      <p class="product-price">
+                        <span class="product-discount-price">250.000 đ</span>
+                        <span class="product-original-price">250.000 đ</span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-md-4 news-card"> <img src="./src/images/other/news-img.jfif" alt="">
-                  <i class="news-date">Thứ 7, ngày 31, tháng 12, năm 2015</i>
-                  <p class="news-title">15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê</p>
-                  <p class="news-content">Cùng Sài Gòn Hoa tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé! Kết hợp hàng rào</p>
-                  <i class="news-read-more">Đọc tiếp</i></div>
+                <div class="col-md-3">
+                  <div class="product-area">
+                    <div class="product-action-same">
+                      <div class="product-action-same-buy">Mua ngay</div>
+                      <div class="product-action-same-find">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
 
-                <div class="col-md-4 news-card"> 
-                  <img src="./src/images/other/news-img.jfif" alt="">
-                  <i class="news-date">Thứ 7, ngày 31, tháng 12, năm 2015</i>
-                  <p class="news-title">15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê</p>
-                  <p class="news-content">Cùng Sài Gòn Hoa tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé! Kết hợp hàng rào</p>
-                  <i class="news-read-more">Đọc tiếp</i>
+                    <img
+                      class="product-img"
+                      src="./src/images/products/spx2-10.png"
+                      alt=""
+                    />
+                    <div class="product-content">
+                      <p class="product-name">Cây Hồng Môn</p>
+
+                      <p class="product-review">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </p>
+
+                      <p class="product-price">
+                        <span class="product-discount-price">250.000 đ</span>
+                        <span class="product-original-price">250.000 đ</span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
-               </div>
+                <div class="col-md-3">
+                  <div class="product-area">
+                    <div class="product-action-same">
+                      <div class="product-action-same-buy">Mua ngay</div>
+                      <div class="product-action-same-find">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
+
+                    <img
+                      class="product-img"
+                      src="./src/images/products/da_bup_do.png"
+                      alt=""
+                    />
+                    <div class="product-content">
+                      <p class="product-name">Cây phát lộc</p>
+
+                      <p class="product-review">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </p>
+
+                      <p class="product-price">
+                        <span class="product-discount-price">250.000 đ</span>
+                        <span class="product-original-price">250.000 đ</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="product-area">
+                    <div class="product-action-same">
+                      <div class="product-action-same-buy">Mua ngay</div>
+                      <div class="product-action-same-find">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
+
+                    <img
+                      class="product-img"
+                      src="./src/images/products/chan_chim.png"
+                      alt=""
+                    />
+                    <div class="product-content">
+                      <p class="product-name">Cây Kim Ngân</p>
+
+                      <p class="product-review">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </p>
+
+                      <p class="product-price">
+                        <span class="product-discount-price">250.000 đ</span>
+                        <span class="product-original-price">250.000 đ</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </section>
           </section>
-
         </div>
       </section>
     </main>
@@ -586,7 +693,8 @@
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="./src/js/home.js"></script>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/product.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

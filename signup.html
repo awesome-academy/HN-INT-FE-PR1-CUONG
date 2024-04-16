@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="stylesheet" href="./src/css/base.style.css" />
-    <link rel="stylesheet" href="./src/css/home.style.css" />
+    <link rel="stylesheet" href="./src/css/login.style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -155,13 +155,15 @@
                 <a href="#" class="nav-link">Giới thiệu</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="list-product.html"> Sản phẩm </a>
+                <a class="nav-link dropdown-toggle" href="list-product.html">
+                  Sản phẩm
+                </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#"> Sản phẩm mới </a>
               </li>
               <li class="nav-item">
-                <a href="./list-news.html" class="nav-link">Tin tức</a>
+                <a href="list-nems.html" class="nav-link">Tin tức</a>
               </li>
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">Liên hệ</a>
@@ -177,218 +179,69 @@
     </header>
 
     <main>
-      <section class="main-slide">
-        <img src="./src/images/other/slide-1920x590.png" alt="" />
-        <div class="main-slide-control">
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item slide-control"></li>
-            <li class="list-group-item slide-control slide-active"></li>
-            <li class="list-group-item slide-control"></li>
-          </ul>
-        </div>
-      </section>
-
       <section class="main__container">
         <div class="main__container-wrap">
-          <!-- Special Product -->
+          <div class="main-header">
+            <span>Home/</span>
+            <span>Đăng nhập</span>
+          </div>
 
-          <section class="special-product">
-            <div class="product-header-wrap">
-              <h5 class="product-header">Sản phẩm nổi bật</h5>
-            </div>
-            <div class="main__special-product">
-              <div class="container">
-                <div class="row product-row">
-                  <div class="col-md row special-product-right">
-                    <div
-                      class="col-md-12 col-sm-12 product-area-wrap product-area-big">
-                    </div>
-
-                    <div
-                      class="col-md col-sm col product-area-wrap product-area-small"
-                    >
-                    </div>
-
-                    <div class="col-md-1 col-sm-1 col-1"></div>
-
-                    <div
-                      class="col-md col-sm col product-area-wrap product-area-small"
-                    >
-                    </div>
-                  </div>
-
-                  <div class="col-md-1"></div>
-
-                  <div class="col-md row special-product-right">
-                    <div
-                      class="col-md col-sm col product-area-wrap product-area-small"
-                    >
-                    </div>
-
-                    <div class="col-md-1 col-sm-1 col-1"></div>
-
-                    <div
-                      class="col-md col-sm col product-area-wrap product-area-small"
-                    >
-                    </div>
-                    <div
-                      class="col-md-12 col-sm-12 product-area-wrap product-area-big">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!-- End Special -->
-
-          <!-- Top buy and discount Product -->
-
-          <section class="main-product-wrap">
-            <div class="row product-row">
-              <!-- Top buy  -->
-              <div class="col-md-3 product-left">
-                <section class="hot-product">
-                  <div class="product-header-wrap product-header-control">
-                    <h5 class="product-header">Sản phẩm mua nhiều</h5>
-                    <div class="product-header-control-hot">
-                      <span>
-                        <i class="fa fa-angle-left"></i>
-                      </span>
-                      <span>
-                        <i class="fa fa-angle-right"></i>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="main__hot-product">
-                    <div class="container">
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                      <div class="col-md-12 col-sm-12 col-12 hot-product-wrap"></div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-
-              <!-- Sale  -->
-              <div class="col-md-9 product-right">
-                <section class="sale-product">
-                  <div class="product-header-wrap product-header-control">
-                    <h5 class="product-header">Sản phẩm khuyến mãi</h5>
-                    <div>
-                      <span>
-                        <i class="fa fa-angle-left"></i>
-                      </span>
-                      <span>
-                        <i class="fa fa-angle-right"></i>
-                      </span>
-                    </div>
-                  </div>
-                    <div class="main__sale-product">
-                      <div class="container">
-                        <div class="row product-row">
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                          <div class="col-md-1"></div>
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                          <div class="col-md-1"></div>
-                          <div class="col-md product-area-wrap sale-product-card"></div>
+          <section class="main__container-content">
+            <div class="person-information">
+              <div class="product-header">THÔNG TIN CÁ NHÂN</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="person-information-item">
+                                <p>Họ và tên <span>*</span></p>
+                                <input type="text" name="" id="" />
+                            </div>
+                            <div class="person-information-item">
+                                <p>Địa chỉ email <span>*</span></p>
+                                <input type="text" name="" id="" />
+                            </div>
+                            <div class="person-information-action">
+                                <input type="checkbox">
+                                <span>Đăng ký nhận thông tin qua email</span>
+                            </div>
                         </div>
-                        <div class="row product-row">
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                          <div class="col-md-1"></div>
-                          <div class="col-md product-area-wrap sale-product-card"></div>
-                          <div class="col-md-1"></div>
-                          <div class="col-md product-area-wrap sale-product-card"></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md">
+                            <div class="person-information-item">
+                                <p>Số ĐT <span>*</span></p>
+                                <input type="text" name="" id="" />
+                              </div>
+                            <div class="person-information-item">
+                                <p>Website của bạn <span>*</span></p>
+                                <input type="text" name="" id="" />
+                            </div>
                         </div>
-                      </div>
                     </div>
-                </section>
-              </div>
-            </div>
-          </section>
-
-          <!-- End hot and sale  -->
-
-          <section class="main__banner">
-            <img src="./src/images/other/banner-11140x217.png" alt="">
-          </section>
-
-          <!-- Start New  -->
-
-          <section class="new-product">
-            <div class="product-header-wrap product-header-control">
-              <h5 class="product-header">Sản phẩm mới</h5>
-              <div class="product-header-control-hot">
-                <span>
-                  <i class="fa fa-angle-left"></i>
-                </span>
-                <span>
-                  <i class="fa fa-angle-right"></i>
-                </span>
-              </div>
-            </div>
-            <div class="main__new-product">
-              <div class="container">
-                <div class="row product-row">
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
                 </div>
-                <div class="row product-row">
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md product-area-wrap new-product-card"></div>
-                </div>
-              </div>
             </div>
+            <div class="person-information">
+                <div class="product-header">THÔNG TIN TÀI KHOẢN</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="person-information-item">
+                                <p>Mật khẩu <span>*</span></p>
+                                <input type="password" name="" id="" />
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md">
+                            <div class="person-information-item">
+                                <p>Nhập lại mật khẩu <span>*</span></p>
+                                <input type="password" name="" id="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="login.html"><button class="button-back">Quay lại</button></a>
+            <button class="button-action">ĐĂNG KÝ</button>
           </section>
-
-          <section class="news">
-            <div class="product-header-wrap">
-              <h5 class="product-header">Tin tức</h5>
-            </div>
-            <div class="main__news-wrap"> 
-              <div class="container">
-               <div class="row product-row">
-
-                <div class="col-md-4 news-card">
-                  <img src="./src/images/other/news-img.jfif" alt="">
-                  <i class="news-date">Thứ 7, ngày 31, tháng 12, năm 2015</i>
-                  <p class="news-title">15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê</p>
-                  <p class="news-content">Cùng Sài Gòn Hoa tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé! Kết hợp hàng rào</p>
-                  <i class="news-read-more">Đọc tiếp</i>
-                </div>
-
-                <div class="col-md-4 news-card"> <img src="./src/images/other/news-img.jfif" alt="">
-                  <i class="news-date">Thứ 7, ngày 31, tháng 12, năm 2015</i>
-                  <p class="news-title">15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê</p>
-                  <p class="news-content">Cùng Sài Gòn Hoa tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé! Kết hợp hàng rào</p>
-                  <i class="news-read-more">Đọc tiếp</i></div>
-
-                <div class="col-md-4 news-card"> 
-                  <img src="./src/images/other/news-img.jfif" alt="">
-                  <i class="news-date">Thứ 7, ngày 31, tháng 12, năm 2015</i>
-                  <p class="news-title">15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê</p>
-                  <p class="news-content">Cùng Sài Gòn Hoa tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé! Kết hợp hàng rào</p>
-                  <i class="news-read-more">Đọc tiếp</i>
-                </div>
-
-               </div>
-              </div>
-            </div>
-          </section>
-
         </div>
       </section>
     </main>
@@ -586,7 +439,7 @@
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="./src/js/home.js"></script>
+    <script src="./src/js/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

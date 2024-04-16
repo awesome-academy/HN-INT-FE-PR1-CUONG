@@ -59,6 +59,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: flex-start!important;
+    padding-left: 0 !important;
 }
 
 .header-top__social{
@@ -95,6 +96,7 @@ p{
 .header-main__logo{
     display: flex;
     justify-content: flex-start;
+    padding-left: 0 !important;
 }
 
 .header-main__logo img{
@@ -181,6 +183,10 @@ p{
     width: 100% !important;
 }
 
+.header-nav li:first-child{
+    padding-left: 0 !important;
+}
+
 .header-nav nav ul {
     width: 100%;
     display: flex;
@@ -243,6 +249,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-size: min(16px, 3vw);
 }
 
 
@@ -256,6 +263,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    font-size: min(16px, 3vw);
 }
 
 .footer-top-mail p {
@@ -305,11 +313,15 @@ p{
     font-size: 14px;
     max-width: 1200px;
 }
+.footer-bottom-main{
+    width: 100%;
+}
 
 .footer-history{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 0 !important;
 }
 
 
@@ -381,6 +393,10 @@ p{
     margin-left: 1rem;
 }
 
+.bottom-qna-text p:first-child{
+    margin-left: 0;
+}
+
 .bottom-payment{
     color: rgb(183,183,183);
     width: 100%;
@@ -402,6 +418,21 @@ p{
     color: white;
     font-size: 1rem;
 }
+
+.main__container{
+    width: 100%;
+    height: 100%;
+    padding: 2rem 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__container-wrap{
+    max-width: 1200px;
+    width: 100%;
+    padding: 10px;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -482,5 +513,20 @@ p{
 
     .news{
         display: none;
+    }
+
+    .footer-history{
+        padding: 0 12px !important;
+    }
+
+    .header-nav li:first-child{
+        padding-left: 12px !important;
+    }
+
+    .header-main__logo{
+        padding-left: 12px !important;
+    }
+    .header-top-left{
+        padding-left: 12px !important;
     }
 }

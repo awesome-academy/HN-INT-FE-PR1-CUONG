@@ -1,0 +1,256 @@
+.main-header{
+    font-size: 14px;
+}
+
+.main-header span:last-child{
+    color: rgb(85, 194, 132);
+}
+
+main{
+    background-color: white;
+}
+
+.main__container-product{
+    margin-top: 2rem;
+}
+
+.container{
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 1200px !important;
+}
+
+.product-header-wrap{
+    width: 100%;
+    border-bottom: 1px solid rgb(247,247,247);
+}
+
+.product-header{
+    width: fit-content;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(123,206,157);
+    color: rgb(74,188,120);
+    margin: 0 !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.category-list{
+    margin-top: .6rem !important;
+}
+
+.category-list-item{
+    padding: .6rem 0 !important;
+    font-size: 14px;
+    color: rgb(178,178,178) !important; 
+    border-bottom: 1px solid rgb(234,234,234) !important;
+}
+
+.category-list-item span{
+    margin-left: 5px;
+}
+
+.category-list-item-active span{
+    color: rgb(74,188,120) !important;
+    font-weight: 500;
+}
+
+.hot-news, .blog-tag{
+    margin-top: 2rem;
+}
+
+.hot-news-list{
+    width: 100%;
+    height: fit-content;
+}
+
+.hot-news-list-item{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hot-news-list-item img{
+    width: 30%;
+    padding-right: 2px;
+}
+
+.hot-news-list-item p{
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(59, 56, 56);
+}
+
+.blog-tag-list{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-tag-item{
+    margin-top: 1rem;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid rgb(207,207,207);
+    margin-right: 10px;
+    color: rgb(177,177,177);
+}
+
+.blog-tag-item:first-child{
+    background-color: rgb(63,184,113);
+    border-color: rgb(63,184,113);
+    color: white;
+}
+
+h6{
+    font-size: 20px !important;
+}
+
+.news-date{
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.news-date > span {
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.news-date span i {
+    color: rgb(96,184,139);
+}
+
+.news-date span span{
+    opacity: 0.4;
+}
+
+.news-content img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+
+.news-content p{
+    margin: 1.5rem 0;
+    color: black ;
+    opacity: 0.8;
+}
+
+.img-banner{
+    margin-top: 2rem;
+}
+
+.news-comment{
+    margin-top: 5rem;
+}
+
+.comment-list-wrap{
+    width: 100%;
+}
+
+.comment-list-item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: flex-start;
+    padding: 2rem 0 1.5rem 0;
+    border-bottom: 1px solid rgb(207,207,207);
+}
+
+.comment-list-item:first-child{
+    padding-bottom: 0;
+}
+
+.comment-list-item img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.comment-content-wrap{
+    padding-bottom: .5rem;
+    margin-left: 2rem;
+    border-bottom: 1px solid rgb(207,207,207);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.child-comment-wrap{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 2rem;
+}
+
+.comment-content-wrap:last-child{
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.comment-content {
+    width: 93%;
+    padding-bottom: 1.5rem;
+}
+
+.comment-content-wrap i{
+    width: 7%;
+}
+
+.comment-content p {
+    margin: 0;
+}
+
+.comment-content p:first-child{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+}
+
+.comment-content p:nth-child(2){
+    font-size: 1rem;
+    opacity: 0.7;
+    margin-bottom: 1rem !important;
+}
+
+.comment-content i{
+    opacity: 0.5;
+}
+
+.comment-write{
+    margin-top: 2rem;
+}
+
+.main__comment-write{
+    margin-top: 2rem;
+}
+
+.comment-write-content{
+    border: 1px solid rgb(177,177,177);
+    padding: 12px 1.5rem;
+    color: rgb(76, 72, 72);
+    width: 100%;
+}
+
+.comment{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.send-comment{
+    padding: 1rem;
+    width: 12rem;
+    border-radius: 3rem;
+    background-color: rgb(63,184,113);
+    color: white;
+    font-weight: 700;
+    margin-top: 2rem;
+    float: right;
+}
