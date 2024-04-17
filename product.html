@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./src/css/base.style.css" />
+    <link rel="stylesheet" href="./src/css/product.style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- header top -->
+      <section class="header-top">
+        <div class="row container__header container__header-top px-md-20">
+          <div class="column col-md-8 header-top-left">
+            <div class="header-top__time">
+              <img class="mb-1" src="./src/images/other/clock.svg" alt="" />
+              <span class="text-white opacity-50 px-md-1"
+                >Open time: 8:00 - 18:00</span
+              >
+              <span class="text-white opacity-50 px-md-1">Monday - Sunday</span>
+            </div>
+            <div class="header-top__social px-md-3">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                  <a href="#">
+                    <img
+                      class="mb-1"
+                      src="./src/images/other/facebook.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">
+                    <img
+                      class="mb-1"
+                      src="./src/images/other/twitter.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="mb-1"
+                      src="./src/images/other/tumblr.svg"
+                      alt=""
+                  /></a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="mb-1"
+                      src="./src/images/other/vimeo.svg"
+                      alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column col-md-4 header-top-right">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">
+                <a href="login.html">
+                  <img
+                    class="mb-1"
+                    src="./src/images/other/person.svg"
+                    alt=""
+                  />
+                  <span class="text-white opacity-50">Đăng nhập</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="signup.html">
+                  <img
+                    class="mb-1"
+                    src="./src/images/other/person.svg"
+                    alt=""
+                  />
+                  <span class="text-white opacity-50">Đăng ký</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- main header -->
+      <section class="header-main">
+        <div class="row container__header container__header-main px-md-20">
+          <div class="header-main__logo column col-md-7">
+            <a href="index.html">
+              <img src="./src/images/other/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="header-main__right column col-md-5">
+            <div class="header-main__search">
+              <div class="main__search">
+                <img
+                  class="mb-1 px-md-1"
+                  src="./src/images/other/phone.svg"
+                  alt=""
+                />
+                <span>Hỗ trợ: (04) 6674 2332 - (04) 3786 8904</span>
+              </div>
+              <div class="input-group mt-2">
+                <input
+                  class="search-field"
+                  type="text"
+                  placeholder="Tìm kiếm..."
+                />
+                <span>
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="header-main__cart">
+              <a href="./cart.html">
+                <i class="fa fa-shopping-cart"></i>
+              </a>
+              <span>0</span>
+              <span class="hidden md:inline">Sản phẩm</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="header-nav">
+        <div>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item nav-item-active">
+                <a href="" class="nav-link"><i class="fa-solid fa-bars"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Giới thiệu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="list-product.html">
+                  Sản phẩm
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"> Sản phẩm mới </a>
+              </li>
+              <li class="nav-item">
+                <a href="list-news.html" class="nav-link">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Liên hệ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-nav-action">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="main__container">
+        <div class="main__container-wrap">
+          <div class="main-header">
+            <span>Home/</span>
+            <span>Cây dạ lam</span>
+          </div>
+          <div class="container">
+            <div class="row product-content-wrap">
+              <section class="col-md-5 product-img">
+                <img src="./src/images/products/danh_du_1.png" alt="" />
+                <div class="group-image">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md col-sm">
+                        <img src="./src/images/products/chan_chim.png" alt="" />
+                      </div>
+                      <div class="col-md col-sm">
+                        <img src="./src/images/products/da_bup_do.png" alt="" />
+                      </div>
+                      <div class="col-md col-sm">
+                        <img src="./src/images/products/da_lam_2.png" alt="" />
+                      </div>
+                      <div class="col-md col-sm">
+                        <img src="./src/images/products/dua_nho_2.png" alt="" />
+                      </div>
+                      <div class="col-md col-sm">
+                        <img
+                          src="./src/images/products/xuong_rong.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="col-md-7 product-detail">
+                <div class="product-detail-item">
+                  <h6>Cây Dạ Lam</h6>
+                  <p class="product-detail-review">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </p>
+                  <p class="product-price">
+                    <span class="product-sale-price">4.099.000 đ</span>
+                    <span class="product-original-price">4.099.000 đ</span>
+                  </p>
+                </div>
+                <div class="product-detail-item">
+                  <p class="product-description">
+                    Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao xây
+                    trung bình từ 0.8-1.2m. Lá hình trứng, mép lá nguyên, gân lá
+                    nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở
+                    mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá nhạt
+                    màu hơn . Lá cây dạ lam mọc cách, cuống lá dài khi rụng để
+                    lại các khía màu nâu nhạt.
+                  </p>
+                </div>
+                <div class="product-detail-item">
+                  <span class="quantity-title">Số lượng</span>
+                  <span class="quantity-action">
+                    <button
+                      class="quantity quantity-minus"
+                      onclick="quantityMinus()"
+                    >
+                      -
+                    </button>
+                    <div class="quantity-number">1</div>
+                    <button
+                      class="quantity quantity-add"
+                      onclick="quantityAdd()"
+                    >
+                      +
+                    </button>
+                  </span>
+                </div>
+                <div class="product-detail-item">
+                  <div class="product-action">
+                    <div class="product-action-buy" onclick="handleAddtoCart()">Mua ngay</div>
+                    <div class="product-action-find">
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <div class="product-action-find">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <span class="social-like social-facebook">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    Like
+                  </span>
+                  <span class="comment-rectangle">
+                    <div class="rectangle">0</div>
+                    <div class="triangle"></div>
+                  </span>
+                  <span class="social-like social-twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    Tweet
+                  </span>
+                  <span class="social-like social-google">
+                    <i class="fa-brands fa-google"></i>
+                    +1
+                  </span>
+                  <span class="comment-rectangle">
+                    <div class="rectangle">0</div>
+                    <div class="triangle"></div>
+                  </span>
+                  <span class="social-like social-share">
+                    <i class="fa-regular fa-square-plus"></i>
+                    share
+                  </span>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <section class="product-information-wrap">
+            <div class="product-information-nav">
+              <div
+                class="product-information-nav-item product-information-nav-item-active"
+              >
+                Thông tin sản phẩm
+              </div>
+              <div class="product-information-nav-item">
+                Khách hàng đánh giá
+              </div>
+              <div class="product-information-nav-item">Thẻ Tag</div>
+            </div>
+            <div class="product-information-content">
+              <div
+                class="product-information-content-item product-information-content-item-active"
+              >
+                <p>Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn</p>
+                <p>Tên khoa học: Calatheza zebrina</p>
+                <p>Họ thực vật: Marantaceae (Củ dong).</p>
+                <p>Chiều cao: 0,8-1,2m</p>
+                <p>
+                  Cây dạ lam có nguồn gốc từ Brazil, được du nhập và phân bố
+                  rộng khắp ở Việt Nam
+                </p>
+                <p>
+                  Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao xây
+                  trung bình từ 0.8-1.2m. Lá hình trứng, mép lá nguyên, gân lá
+                  nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt
+                  trên, quanh gân lá có màu trắng sữa; mặt dưới lá nhạt màu hơn
+                  . Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các
+                  khía màu nâu nhạt.
+                </p>
+                <p>
+                  Cây dạ lam thuộc loại cây chịu bóng bán phần hoặc hoàn toàn,
+                  nhu cầu nước tương đối cao. Cây được nhân giống từ tách bụi,
+                  cây mọc khỏe , tốc độ sinh trưởng nhanh với sức sống mạnh.
+                </p>
+                <p>
+                  Đây là loại cây có dáng đẹp, màu lá mướt mát, tươi khỏe, cây
+                  rất phù hợp trồng chậu trang trí nội thất-văn phòng
+                </p>
+                <p>
+                  Ngoài ra, cây còn có đặc điểm lọc khí, làm xanh mát môi
+                  trường, giúp điều hòa không khí, đặc biệt tốt cho những môi
+                  trường thường xuyên sử dụng các loại máy móc tản nhiệt . Có
+                  thể bày cây ở hành lang hay ở giữa sảnh, đặt ở cạnh bàn làm
+                  việc hoặc trang trí các góc phòng có diện tích trung bình.
+                </p>
+              </div>
+              <div class="product-information-content-item">
+                This is Costumer's review
+              </div>
+              <div class="product-information-content-item">
+                This is Product's tag
+              </div>
+            </div>
+          </section>
+
+          <section class="same-product">
+            <div class="product-header-wrap">
+              <h5 class="product-header">Sản phẩm cùng loại</h5>
+            </div>
+            <section class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="product-area">
+                    <div class="product-action-same">
+                      <div class="product-action-same-buy">Mua ngay</div>
+                      <div class="product-action-same-find">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
+
+                    <img
+                      class="product-img"
+                      src="./src/images/products/co_ta.png"
+                      alt=""
+                    />
+                    <div class="product-content">
+                      <p class="product-name">Cây cọ Nhật</p>
+
+                      <p class="product-review">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </p>
+
+                      <p class="product-price">
+                        <span class="product-discount-price">250.000 đ</span>
+                        <span class="product-original-price">250.000 đ</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="product-area">
+                    <div class="product-action-same">
+                      <div class="product-action-same-buy">Mua ngay</div>
+                      <div class="product-action-same-find">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
+
+                    <img
+                      class="product-img"
+                      src="./src/images/products/spx2-10.png"
+                      alt=""
+                    />
+                    <div class="product-content">
+                      <p class="product-name">Cây Hồng Môn</p>
+
+                      <p class="product-review">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </p>
+
+                      <p class="product-price">
+                        <span class="product-discount-price">250.000 đ</span>
+                        <span class="product-original-price">250.000 đ</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="product-area">
+                    <div class="product-action-same">
+                      <div class="product-action-same-buy">Mua ngay</div>
+                      <div class="product-action-same-find">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
+
+                    <img
+                      class="product-img"
+                      src="./src/images/products/da_bup_do.png"
+                      alt=""
+                    />
+                    <div class="product-content">
+                      <p class="product-name">Cây phát lộc</p>
+
+                      <p class="product-review">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </p>
+
+                      <p class="product-price">
+                        <span class="product-discount-price">250.000 đ</span>
+                        <span class="product-original-price">250.000 đ</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="product-area">
+                    <div class="product-action-same">
+                      <div class="product-action-same-buy">Mua ngay</div>
+                      <div class="product-action-same-find">
+                        <i class="fas fa-search"></i>
+                      </div>
+                    </div>
+
+                    <img
+                      class="product-img"
+                      src="./src/images/products/chan_chim.png"
+                      alt=""
+                    />
+                    <div class="product-content">
+                      <p class="product-name">Cây Kim Ngân</p>
+
+                      <p class="product-review">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                      </p>
+
+                      <p class="product-price">
+                        <span class="product-discount-price">250.000 đ</span>
+                        <span class="product-original-price">250.000 đ</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <!-- footer top  -->
+        <section class="footer-top">
+          <div class="row footer__container footer__container-top">
+            <div class="footer-social-channel col-md-5 col-sm-12">
+              <div>
+                <div>KÊNH THÔNG TIN TỪ CHÚNG TÔI :</div>
+                <div class="footer-social-logo">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-vimeo-v"></i>
+                </div>
+              </div>
+            </div>
+            <div class="footer-top-mail col-md-7 col-sm-12">
+              <p>ĐĂNG KÝ NHẬN EMAIL TỪ CHÚNG TÔI</p>
+              <div class="input-group-mail">
+                <input class="search-email" type="text" />
+                <span>
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="br"></div>
+
+        <!-- footer main -->
+        <section class="footer-bottom">
+          <div class="footer__container footer__container-bottom">
+            <div class="row footer-bottom-main">
+              <div class="column col-md-4 col-sm-12 col-sx-12 footer-history">
+                <div class="footer-history_wrap">
+                  <img src="./src/images/other/logo-bottom.png" alt="" />
+                  <p class="footer-bottom-description">
+                    Green shop được thành lập từ 8/2010 được sự tin tưởng của
+                    khách hàng trong suốt thời gian hoạt động đến nay cửa hàng
+                    ngày một phát triển
+                  </p>
+                  <div class="footer-bottom-contact">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>Điện thoại: (84-4) 66 558 868</span>
+                  </div>
+                  <div class="footer-bottom-contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email: info@dkt.com.vn</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column col-md-2 col-sm-6 col-sx-12 footer-bottom-item"
+              >
+                <h6>Thông tin khách hàng</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tài khoản của tôi </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Sản phẩm yêu thích </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Lịch sử mua hàng </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách đổi trả </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Gợi ý, khiếu nại </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="column col-md-2 col-sm-6 col-sx-12 footer-bottom-item"
+              >
+                <h6>Hỗ trợ dịch vụ</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Hệ thống cửa hàng </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Hướng dẫn mua sắm </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Hướng dẫn thanh toán </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tích điểm đổi quà </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Câu hỏi thường gặp </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="column col-md-2 col-sm-6 col-sx-12 footer-bottom-item"
+              >
+                <h6>Chính sách ưu đãi</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách giao hàng </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách đổi trả sản phẩm</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách bảo hành </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Giới thiệu sản phẩm mới </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách trả góp </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="column col-md-2 col-sm-6 col-sx-12 footer-bottom-item"
+              >
+                <h6>Tin tức</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tin mới </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Khuyến mãi </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tuyển dụng </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Download </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tin tức </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="br"></div>
+
+        <!-- footer bottom  -->
+
+        <section class="bottom-qna">
+          <div class="bottom__container-qna">
+            <div class="bottom-qna-text">
+              <p>Sitemap</p>
+              <p>Danh mục sản phẩm</p>
+              <p>Hợp tác</p>
+              <p>Thông tin liên hệ</p>
+              <p>Câu hỏi thường gặp</p>
+            </div>
+            <div class="bottom-payment">
+              <i class="fa-2x fa-brands fa-cc-visa"></i>
+              <i class="fa-2x fa-brands fa-cc-mastercard"></i>
+              <i class="fa-2x fa-brands fa-cc-paypal"></i>
+              <i class="fa-2x fa-brands fa-cc-discover"></i>
+            </div>
+          </div>
+        </section>
+        <section class="bottom-design">
+          <p>Thiết kế bởi Bizweb &copy</p>
+        </section>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/product.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
