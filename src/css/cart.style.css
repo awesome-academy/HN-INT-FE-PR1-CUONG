@@ -1,0 +1,118 @@
+.container{
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 1200px !important;
+}
+
+.main-header{
+    font-size: 14px;
+}
+
+.main-header span:last-child{
+    color: rgb(85, 194, 132);
+}
+
+.cart-name{
+    margin: 2rem 0 !important;
+    color: rgb(104,186,143);
+    font-weight: 700;
+}
+
+.container__cart-wrap{
+    margin-top: 3rem;
+}
+
+.table-header th, .total{
+    background-color: rgb(63,184,113) !important;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+}
+
+.table-body-img{
+    width: 12rem !important;
+}
+
+.table-body img{
+    width: 10rem;
+    margin-top: 10px !important;
+}
+
+.table-body-data{
+    line-height: 10rem;
+}
+
+.table-body-name{
+    color: rgb(130,196,161) !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.table-body-price{
+    color: rgb(150,150,150) !important;
+}
+
+.table-body-quantity span{
+    padding: .5rem 1rem;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.table-body-delete{
+    color: rgb(150,150,150) !important;
+}
+
+.table-body-delete i{
+    cursor: pointer;
+    padding: 2px;
+}
+
+.cart-action{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 2rem 0;
+}
+
+.cart-button-group{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.button-action{
+    width: 10rem;
+    padding: 10px 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    background-color: white;
+}
+
+.button-cancel{
+    border-color: rgb(85, 194, 132);
+    color: rgb(85, 194, 132)
+}
+
+.button-continue{
+    color: white;
+    background-color: rgb(85, 194, 132);
+}
+
+.total-amount-wrap{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.total-amount-wrap table{
+    font-size: 20px !important; 
+    font-weight: 500;
+}
+
+.total-amount-wrap table th, .total-amount-wrap table tbody tr:first-child td{
+    color: rgb(85, 194, 132) !important;
+    font-weight: 500;
+}
