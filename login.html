@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./src/css/base.style.css" />
+    <link rel="stylesheet" href="./src/css/login.style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- header top -->
+      <section class="header-top">
+        <div class="row container__header container__header-top px-md-20">
+          <div class="column col-md-8 header-top-left">
+            <div class="header-top__time">
+              <img class="mb-1" src="./src/images/other/clock.svg" alt="" />
+              <span class="text-white opacity-50 px-md-1"
+                >Open time: 8:00 - 18:00</span
+              >
+              <span class="text-white opacity-50 px-md-1">Monday - Sunday</span>
+            </div>
+            <div class="header-top__social px-md-3">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                  <a href="#">
+                    <img
+                      class="mb-1"
+                      src="./src/images/other/facebook.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">
+                    <img
+                      class="mb-1"
+                      src="./src/images/other/twitter.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="mb-1"
+                      src="./src/images/other/tumblr.svg"
+                      alt=""
+                  /></a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#"
+                    ><img
+                      class="mb-1"
+                      src="./src/images/other/vimeo.svg"
+                      alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column col-md-4 header-top-right">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">
+                <a href="login.html">
+                  <img
+                    class="mb-1"
+                    src="./src/images/other/person.svg"
+                    alt=""
+                  />
+                  <span class="text-white opacity-50">Đăng nhập</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="signup.html">
+                  <img
+                    class="mb-1"
+                    src="./src/images/other/person.svg"
+                    alt=""
+                  />
+                  <span class="text-white opacity-50">Đăng ký</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- main header -->
+      <section class="header-main">
+        <div class="row container__header container__header-main px-md-20">
+          <div class="header-main__logo column col-md-7">
+            <a href="index.html">
+              <img src="./src/images/other/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="header-main__right column col-md-5">
+            <div class="header-main__search">
+              <div class="main__search">
+                <img
+                  class="mb-1 px-md-1"
+                  src="./src/images/other/phone.svg"
+                  alt=""
+                />
+                <span>Hỗ trợ: (04) 6674 2332 - (04) 3786 8904</span>
+              </div>
+              <div class="input-group mt-2">
+                <input
+                  class="search-field"
+                  type="text"
+                  placeholder="Tìm kiếm..."
+                />
+                <span>
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="header-main__cart">
+              <a href="./cart.html">
+                <i class="fa fa-shopping-cart"></i>
+              </a>
+              <span>0</span>
+              <span class="hidden md:inline">Sản phẩm</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="header-nav">
+        <div>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item nav-item-active">
+                <a href="" class="nav-link"><i class="fa-solid fa-bars"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Giới thiệu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="list-product.html">
+                  Sản phẩm
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"> Sản phẩm mới </a>
+              </li>
+              <li class="nav-item">
+                <a href="list-news.html" class="nav-link">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Liên hệ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-nav-action">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </section>
+    </header>
+
+    <main>
+
+      <section class="main__container">
+        <div class="main__container-wrap">
+            <div class="main-header">
+                <span>Home/</span>
+                <span>Đăng nhập</span>
+            </div>
+
+            <section class="main__container-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="person-information">
+                                <div class="product-header">THÔNG TIN CÁ NHÂN</div>
+                                <div class="person-information-item">
+                                    <p>Họ và tên</p>
+                                    <input type="text" name="" id="">
+                                </div>
+                                <div class="person-information-item">
+                                    <p>Mật khẩu</p>
+                                    <input type="password" name="" id="">
+                                </div>
+                                <div class="person-information-action">
+                                    <input type="checkbox">
+                                    <span><b>Ghi nhớ tài khoản</b></span>
+                                    <i><u>Bạn quên mật khẩu?</u></i>
+                                </div>
+                                <button class="button-action">ĐĂNG NHẬP</button>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md">
+                            <div class="person-information">
+                                <div class="product-header">BẠN CHƯA CÓ TÀI KHOẢN?</div>
+                                <p>
+                                    Đăng ký tài khoản ngay để có thể mua hàng nhanh chóng và dễ dàng
+                                    hơn ! Ngoài ra còn có rất nhiều chính sách ưu đãi cho các thành viên citybike
+                                </p>
+                                <a href="signup.html"><button class="button-action">ĐĂNG KÝ</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <!-- footer top  -->
+        <section class="footer-top">
+          <div class="row footer__container footer__container-top">
+            <div class="footer-social-channel col-md-5 col-sm-12">
+              <div>
+                <div>KÊNH THÔNG TIN TỪ CHÚNG TÔI :</div>
+                <div class="footer-social-logo">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-vimeo-v"></i>
+                </div>
+              </div>
+            </div>
+            <div class="footer-top-mail col-md-7 col-sm-12">
+              <p>ĐĂNG KÝ NHẬN EMAIL TỪ CHÚNG TÔI</p>
+              <div class="input-group-mail">
+                <input class="search-email" type="text" />
+                <span>
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="br"></div>
+
+        <!-- footer main -->
+        <section class="footer-bottom">
+          <div class="footer__container footer__container-bottom">
+            <div class="row footer-bottom-main">
+              <div class="column col-md-4 col-sm-12 col-sx-12 footer-history">
+                <div class="footer-history_wrap">
+                  <img src="./src/images/other/logo-bottom.png" alt="" />
+                  <p class="footer-bottom-description">
+                    Green shop được thành lập từ 8/2010 được sự tin tưởng của
+                    khách hàng trong suốt thời gian hoạt động đến nay cửa hàng
+                    ngày một phát triển
+                  </p>
+                  <div class="footer-bottom-contact">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>Điện thoại: (84-4) 66 558 868</span>
+                  </div>
+                  <div class="footer-bottom-contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email: info@dkt.com.vn</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column col-md-2 col-sm-6 col-sx-12 footer-bottom-item"
+              >
+                <h6>Thông tin khách hàng</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tài khoản của tôi </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Sản phẩm yêu thích </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Lịch sử mua hàng </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách đổi trả </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Gợi ý, khiếu nại </span>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="column col-md-2 col-sm-6 col-sx-12 footer-bottom-item"
+              >
+                <h6>Hỗ trợ dịch vụ</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Hệ thống cửa hàng </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Hướng dẫn mua sắm </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Hướng dẫn thanh toán </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tích điểm đổi quà </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Câu hỏi thường gặp </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="column col-md-2 col-sm-6 col-sx-12 footer-bottom-item"
+              >
+                <h6>Chính sách ưu đãi</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách giao hàng </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách đổi trả sản phẩm</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách bảo hành </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Giới thiệu sản phẩm mới </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Chính sách trả góp </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="column col-md-2 col-sm-6 col-sx-12 footer-bottom-item"
+              >
+                <h6>Tin tức</h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tin mới </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Khuyến mãi </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tuyển dụng </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Download </span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span> Tin tức </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="br"></div>
+
+        <!-- footer bottom  -->
+
+        <section class="bottom-qna">
+          <div class="bottom__container-qna">
+            <div class="bottom-qna-text">
+              <p>Sitemap</p>
+              <p>Danh mục sản phẩm</p>
+              <p>Hợp tác</p>
+              <p>Thông tin liên hệ</p>
+              <p>Câu hỏi thường gặp</p>
+            </div>
+            <div class="bottom-payment">
+              <i class="fa-2x fa-brands fa-cc-visa"></i>
+              <i class="fa-2x fa-brands fa-cc-mastercard"></i>
+              <i class="fa-2x fa-brands fa-cc-paypal"></i>
+              <i class="fa-2x fa-brands fa-cc-discover"></i>
+            </div>
+          </div>
+        </section>
+        <section class="bottom-design">
+          <p>Thiết kế bởi Bizweb &copy</p>
+        </section>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="./src/js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
