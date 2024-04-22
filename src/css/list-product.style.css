@@ -1,0 +1,362 @@
+.main-header{
+    font-size: 14px;
+}
+
+.main-header span:last-child{
+    color: rgb(85, 194, 132);
+}
+
+main{
+    background-color: rgb(251,249,249);
+}
+
+.main__container-product{
+    margin-top: 2rem;
+}
+
+.container{
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 1200px !important;
+}
+
+.product-header-wrap{
+    width: 100%;
+    border-bottom: 1px solid rgb(247,247,247);
+}
+
+.product-header{
+    width: fit-content;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(123,206,157);
+    color: rgb(74,188,120);
+    margin: 0 !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.category-list{
+    margin-top: .6rem !important;
+}
+
+.category-list-item{
+    padding: .6rem 0 !important;
+    font-size: 14px;
+    color: rgb(178,178,178) !important; 
+    border-bottom: 1px solid rgb(234,234,234) !important;
+}
+
+.category-list-item span{
+    margin-left: 5px;
+}
+
+.category-list-item-active span{
+    color: rgb(74,188,120) !important;
+    font-weight: 500;
+}
+
+.section__price-list, .section__color-list{
+    margin-top: 2rem
+}
+
+.color-list{
+    margin-top: 1rem;
+}
+
+.color-list span{
+    color: rgb(182,182,182);
+}
+
+.color-list-row > div{
+    display: flex;
+    padding: 12px !important;
+    align-items: center;
+}
+
+.color-list-row > div:hover{
+    cursor: pointer;
+}
+
+.color-list-item{
+    width: 30px !important; 
+    height: 30px !important;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.color-list-item-green{
+    background-color: rgb(152,203,74);
+    border-color: rgb(152,203,74);
+}
+
+.color-list-item-red{
+    background-color: rgb(247,109,60);
+    border-color: rgb(247,109,60);
+}
+
+.color-list-item-purple{
+    background-color: rgb(145,60,205);
+    border-color: rgb(145,60,205);
+}
+
+.color-list-item-blue{
+    background-color: rgb(84,129,230);
+    border-color: rgb(84,129,230);
+}
+
+.color-list-item-yellow{
+    background-color: rgb(247,216,66);
+    border-color: rgb(247,216,66);
+}
+
+.color-list-item-pink{
+    background-color: rgb(241,95,116);
+    border-color: rgb(241,95,116);
+}
+
+.color-list-item-active{
+    background-color: rgb(247, 247, 247);
+}
+
+.list-product-banner{
+    width: 100%;
+    height: fit-content;
+}
+
+.list-product-banner img{
+    width: 100%;
+}
+
+.main__list-product{
+    margin-top: 1.5rem;
+}
+
+.main__list-product-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    padding: 5px 0;
+}
+
+.list-product-type{
+    height: 100%;
+    width: 60%;
+}
+
+.list-product-type span{
+    width: 100%;
+    height: 100%;
+    margin-right:1rem;
+}
+
+.list-product-type span:hover{
+    cursor: pointer;
+}
+
+.list-product-type svg{
+    width: 16px;
+    height: 16px;
+    opacity: 0.9;
+}
+
+.list-type-active svg path{
+    fill: rgb(87,190,128);
+}
+
+.list-type-active {
+    color:rgb(87,190,128);
+}
+
+.list-product-filter{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.list-product-filter select{
+    padding: 8px;
+    border: 1px solid rgb(227,226,226);
+    opacity: 0.7;
+}
+
+.list-product-filter div span:first-child{
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+.list-product-card{
+    margin-top: 1rem;
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 0;
+}
+
+.product-area{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+    border: 1px solid rgb(242,242,242);
+    background-color: white;
+    position: relative;
+    margin: 1.5rem 0;
+}
+
+.product-action{
+    position: absolute;
+    display: none;
+    width: 100%;
+    justify-content: center;
+    top: 40%;
+    left: 0;
+}
+
+
+.product-area:hover > .product-action{
+    display: flex;
+}
+
+.product-action-buy:hover, .product-action-find:hover{
+    cursor: pointer;
+}
+
+.product-action-buy{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    width: 12rem;
+    border: 1px solid rgb(63,184,113);
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+    background-color: rgb(63,184,113);
+}
+
+.product-action-find{
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 0 20px;
+}
+
+
+.product-img{
+    width: 100%;
+    height: auto;
+}
+
+.product-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25.2px;
+}
+
+.product-content p{
+    margin-top: 1rem;
+}
+
+.product-name{
+    color: rgb(106,106,106);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.product-review i{
+    color: rgb(254,191,2);
+}
+
+.product-discount-price{
+    color: rgb(241,72,78);
+    font-size: 1.2rem;
+    margin: 0 .5rem;
+}
+
+.product-original-price{
+    color: gray;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.product-area-list{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    position: static;
+}
+
+.product-area-list img{
+    width: 30%;
+    height: auto;
+}
+
+.product-area-list .product-content{
+    align-items: flex-start;
+    width: 70%;
+    padding: 1rem 2rem;
+}
+
+.product-area-list .product-discount-price{
+    margin-left: 0;
+}
+
+.product-area-list .product-content p{
+    width: 100%;
+    word-wrap: break-word;
+    margin-top: 5px;
+}
+
+.product-area-list .product-action{
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+}
+
+.product-area-list .product-price{
+    margin: 1rem 0 !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-area-list .product-action .product-action-find{
+    border: 1px solid rgb(245,245,245);
+}
+
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination span{
+    padding: 10px 20px;
+    border: 1px solid rgb(243,243,243);
+    background-color: white;
+    margin-left: 5px;
+    color: rgb(174,174,174);
+}
+
+.pagination span:hover{
+    cursor: pointer;
+}
+
+.pagination-active{
+    background-color: rgb(51, 201, 113) !important;
+    color: white !important;
+}
+
+
+
